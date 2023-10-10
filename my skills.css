@@ -1,0 +1,54 @@
+
+.mySkills {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #f3ecec;
+  }
+  
+  .mySkills h1 {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .flexContainer {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  
+  .flexChild {
+    flex-basis: calc(33.3333% - 20px); /* 33.3333% width with spacing */
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .flexChild img {
+    max-width: 100px;
+    margin-bottom: 10px;
+  }
+  
+  .flexChild h3 {
+    font-size: 18px;
+    margin: 10px 0;
+  }
+  
+  .flexChild p {
+    font-size: 14px;
+  }
+  
+  /* Media Query for responsiveness */
+  @media screen and (max-width: 768px) {
+    .flexChild {
+      flex-basis: calc(50% - 20px); /* 50% width with spacing on smaller screens */
+    }
+  }
+  
+  @media screen and (max-width: 480px) {
+    .flexChild {
+      flex-basis: 100%; /* 100% width on even smaller screens */
+    }
+  }
