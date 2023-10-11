@@ -4,14 +4,14 @@ body {
  
  
  header {
-    background-color: #FFFFFF;
-    padding: 10px;
+    background-color: #7c0303;
+    padding: 8px;
     height: 90px;  
  }
  header ul {
   font-size: 25px;
     float: right;
-    color:#120303;
+    color:#fbfbfb;
     padding: 20px;
 
 }
@@ -19,15 +19,22 @@ body {
     display:inline-block;
     padding: 0px 30px;
   }
+
+ul li a {
+  color: white;
+  text-decoration: none; 
+}
   header p {
     display: inline-block;
     font-size: 25px;
+    padding-inline-start: 10px;
+    color: #c6bcbc;
   }
   header p2 {
     display: inline-block;
     font-size: 25px;
     text-decoration: underline;
-    color: #780505;
+    color: #fefefe;
   
   }
   h1{
@@ -63,7 +70,7 @@ body {
   footer ul {
     display: inline-block;
     vertical-align: top;
-    float: center
+    float: center;
   }
 
 
