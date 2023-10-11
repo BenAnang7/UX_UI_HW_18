@@ -30,7 +30,7 @@ header p {
   font-size: 25px;
   padding-inline-start: 10px;
   color: #c6bcbc;
-  
+  vertical-align: 30px;
   
 }
 header p2 {
@@ -38,11 +38,13 @@ header p2 {
   font-size: 25px;
   text-decoration: underline;
   color: #fefefe;
-  
+  vertical-align: 30px;
 
 }
 .heroImg {
   background-color: black;
+  margin-top: 1px;
+    margin-bottom: 1px;
     padding: 50px;
     height: 490px;
   }
