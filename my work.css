@@ -54,8 +54,8 @@ header p2 {
   
   .workGrid {
     display: grid;
-    grid-template-rows: repeat(3, 1fr); /* Three rows */
-    grid-gap: 30px; /* Spacing between grid items */
+    grid-template-rows: repeat(3, 1fr); 
+    grid-gap: 30px; 
   }
   
   
@@ -87,13 +87,12 @@ header p2 {
 
     text-align: center;
     font-size: 30px;
-    margin-bottom: 5000000000px;
+    margin-bottom: 50px;
     color: #FFFFFF;
   }
  
 
   
-  /* Media Query for responsiveness */
   @media screen and (max-width: 768px) {
     .workGrid {
       grid-template-columns: 1fr; 
