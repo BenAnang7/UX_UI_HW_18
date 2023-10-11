@@ -19,6 +19,11 @@ font-size: 25px;
 header li {
   display:inline-block;
   padding: 0px 30px;
+  
+}
+ul li a {
+  color: white;
+  text-decoration: none; 
 }
 header p {
   display: inline-block;
